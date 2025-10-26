@@ -50,7 +50,9 @@ ScrollReveal().reveal('.home-content p,  .about-content', { origin: 'bottom' });
 
 /*=====Typed Js=====*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Mobile App Developer, Web Developer, IoT Developer'],
+    strings: ['Mobile App Developer'],
+    strings: ['Web Developer'],
+    strings: ['IoT Developer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
