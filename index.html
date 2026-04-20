@@ -3,16 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Portofolio</title>
 
     <!-- Boxicons -->
-    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="CSS/style-Portofolio.css">
 </head>
 
 <body>
+
+    <!-- HEADER -->
     <header class="header">
         <a href="#" class="logo">Portofolio</a>
 
@@ -21,23 +22,27 @@
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
+            <a href="#why-me">Why Me</a>
             <a href="#portofolio">Portofolio</a>
         </nav>
     </header>
 
-    <!-- home section design -->
+    <!-- HOME -->
     <section class="home" id="home">
         <div class="home-content">
             <h3>Hai, Saya</h3>
             <h1>Rizki Esa Fadillah</h1>
             <h3>Saya Seorang <span class="multiple-text"></span></h3>
-            <p>Saya senang mengubah ide menjadi aplikasi yang nyata, mulai dari aplikasi mobile dan website responsif
-                hingga sistem berbasis Internet of Things
-                yang terintegrasi. Bagi saya, teknologi bukan hanya tentang kode, tapi tentang bagaimana menciptakan
-                pengalaman yang memberi dampak positif bagi pengguna.
-                Jelajahi portofolio saya dan temukan bagaimana saya membangun proyek dengan semangat inovasi dan
-                kolaborasi.
+
+            <p>
+                Saya membantu mengubah ide Anda menjadi aplikasi mobile dan website yang modern, responsif, dan siap
+                digunakan.
+                Fokus saya adalah menghasilkan solusi yang rapi, cepat, dan sesuai kebutuhan bisnis maupun personal.
+                <br><br>
+                Jika Anda membutuhkan developer yang komunikatif dan dapat diandalkan, saya siap membantu mewujudkan
+                project Anda.
             </p>
+
             <div class="social-media">
                 <a href="https://wa.me/6285658981250" target="_blank"><i class='bx bxl-whatsapp'></i></a>
                 <a href="https://instagram.com/rizkifadillah157" target="_blank"><i
@@ -47,79 +52,145 @@
                 <a href="https://discord.com/users/1079753145397293056" target="_blank"><i
                         class='bx bxl-discord-alt'></i></a>
             </div>
-            <a href="assets/CV IT_Rizki Esa Fadillah.pdf" download class="btn">Download CV</a>
+
+            <div class="home-buttons">
+                <a href="https://fastwork.id/" target="_blank" class="btn">Hire Me</a>
+            </div>
         </div>
-        <!--Foto Profil-->>
+
         <div class="home-img">
-            <img src="images/Foto_Profile.png" alt="">
+            <img src="images/Foto_Profile.png" alt="Profile">
         </div>
     </section>
-    <!--About Section-->
+
+    <!-- ABOUT -->
     <section class="about" id="about">
-        <div class="about-img">
-            <img src="images/Foto_Profile.png" alt="">
-        </div>
+        <div class="about-container">
 
-        <div class="about-content">
-            <h2 class="heading">Tentang <span>Saya</span></h2>
-            <p>Lulusan baru Teknik Informatika yang memiliki minat pada pengembangan aplikasi, web, dan Internet of
-                Things (IoT). Dikenal sebagai individu yang adaptif dan kolaboratif. Mampu bekerja secara mandiri maupun
-                dalam tim untuk menyelesaikan proyek berbasis teknologi. Saat ini sedang mencari peluang karier untuk
-                berkembang dan berkontribusi dalam solusi teknologi inovatif.
-            </p>
-            <a href="assets/CV IT_Rizki Esa Fadillah.pdf" target="_blank" rel="noopener noreferrer" class="btn">Lihat CV
-                Lengkap</a>
+            <div class="about-content">
+                <h2 class="heading">Tentang <span>Saya</span></h2>
+
+                <ul class="about-list">
+                    <li>Lulusan Teknik Informatika dengan minat pada pengembangan aplikasi mobile dan web.</li>
+                    <li>Terbiasa bekerja secara terstruktur mulai dari analisis kebutuhan hingga implementasi.</li>
+                    <li>Aktif belajar dan mengikuti perkembangan teknologi.</li>
+                    <li>Fokus membangun solusi yang fungsional dan mudah digunakan.</li>
+                    <li>Berkomitmen memberikan hasil terbaik dengan komunikasi yang jelas dan tepat waktu.</li>
+                </ul><br>
+
+                <div class="about-buttons">
+                    <a href="assets/CV IT_Rizki Esa Fadillah.pdf" target="_blank" class="btn">Lihat CV</a>
+                    <a href="assets/CV IT_Rizki Esa Fadillah.pdf" download class="btn">Download CV</a>
+                </div>
+            </div>
+
+            <div class="about-extra">
+                <h3><i class='bx bx-code-alt'></i> Tech Stack</h3>
+                <p>Flutter, Golang, REST API, Firebase, MySQL</p>
+
+                <h3><i class='bx bx-layer'></i> Jenis Project</h3>
+                <p>Mobile App, Website UMKM, Sistem IoT</p>
+
+                <h3><i class='bx bx-check-circle'></i> Siap Dikerjakan</h3>
+                <p>Landing Page, CRUD App, API Integration</p>
+            </div>
+
         </div>
     </section>
 
-    <!--Portofolia Section-->
+    <!-- WHY ME -->
+    <section class="why-me" id="why-me">
+        <h2 class="heading">Kenapa <span>Pilih Saya?</span></h2><br>
+        <p class="why-subtext">
+            Saya fokus memberikan solusi yang rapi, cepat, dan sesuai kebutuhan Anda.
+        </p>
+
+        <div class="why-container">
+
+            <div class="why-box">
+                <h3><i class='bx bx-chat'></i> Komunikatif</h3>
+                <p>Respons cepat dan terbuka untuk diskusi.</p>
+            </div>
+
+            <div class="why-box">
+                <h3><i class='bx bx-code-alt'></i> Pengerjaan Rapi</h3>
+                <p>Kode terstruktur dan mudah dikembangkan.</p>
+            </div>
+
+            <div class="why-box">
+                <h3><i class='bx bx-refresh'></i> Siap Revisi</h3>
+                <p>Terbuka terhadap revisi sesuai kebutuhan.</p>
+            </div>
+
+            <div class="why-box">
+                <h3><i class='bx bx-check-shield'></i> Komitmen</h3>
+                <p>Bertanggung jawab menyelesaikan project.</p>
+            </div>
+        </div>
+        <div class="why-cta">
+            <p>Sudah siap memulai project Anda?</p>
+            <a href="https://fastwork.id/" target="_blank" class="btn">Mulai Project</a>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
     <section class="portofolio" id="portofolio">
         <h2 class="heading">Latest <span>Project</span></h2>
 
         <div class="portofolio-container">
+
             <div class="portofolio-box">
                 <img src="images/Smartfarm App.png" alt="">
                 <div class="portofolio-layer">
                     <h4>Smartfarm App</h4>
-                    <p>Aplikasi Mobile yang terintegrasi dengan Sistem IoT untuk untuk monitoring sensor dan kontrol
-                        otomatis pada pelontar pakan dan aerator tambak udang.
-                    </p>
-                    <a href="https://github.com/Rizki-Esa/Aplikasi_SmartFarm" target="_blank"
-                        rel="noopener noreferrer"><i class='bx bx-link-external'></i></a>
+                    <p>Aplikasi IoT untuk monitoring dan kontrol tambak.</p>
+                    <a href="https://github.com/Rizki-Esa/Aplikasi_SmartFarm" target="_blank">
+                        <i class='bx bx-link-external'></i>
+                    </a>
                 </div>
             </div>
+
             <div class="portofolio-box">
-                <img src="images/Web UMKM.png" alt="">
+                <img src="images\Redesign Web Lamonte.png" alt="">
                 <div class="portofolio-layer">
-                    <h4>Smartfarm App</h4>
-                    <p>
-                    </p>
-                    <a href="https://github.com/Rizki-Esa/UMKM-Bangun-Rejo" target="_blank" rel="noopener noreferrer"><i
-                            class='bx bx-link-external'></i></a>
+                    <h4>Website UMKM</h4>
+                    <p>Website modern dan responsif untuk UMKM.</p>
+                    <a href="https://github.com/Rizki-Esa/Redesaign-Web-Landing-Page-Lamonte" target="_blank">
+                        <i class='bx bx-link-external'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portofolio-box">
+                <img src="images\Fintrack App.png" alt="">
+                <div class="portofolio-layer">
+                    <h4>Fintrack App</h4>
+                    <p>App/Web untuk kelola financial pribadi (Income, Expense, dan Saving).</p>
+                    <a href="https://github.com/Rizki-Esa/FinTrack_App" target="_blank">
+                        <i class='bx bx-link-external'></i>
+                    </a>
                 </div>
             </div>
 
         </div>
     </section>
 
-    <!--Footer-->
+    <!-- FOOTER -->
     <footer class="footer">
         <div class="footer-text">
-            <p>Copyright &copy; 2023 by Rizki Esa Fadillah | All Rights Reserved.</p>
+            <p>© 2026 Rizki Esa Fadillah</p>
         </div>
+
         <div class="footer-iconTop">
             <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
     </footer>
 
-    <!--Scroll Reveal-->
+    <!-- Scripts -->
     <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!--Type Js-->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
-    <!-- custom -->
     <script src="Js/script.js"></script>
+
 </body>
 
 </html>
